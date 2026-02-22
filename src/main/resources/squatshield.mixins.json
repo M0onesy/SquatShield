@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.squatshield.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [],
+	"client": [
+		"client.MinecraftClientMixin",
+		"client.ClientPlayerInteractionManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
