@@ -38,3 +38,12 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+
+# runtime/log artifacts
+logs/
+crash-reports/
+*.log
+
+# windows
+Thumbs.db
+Desktop.ini
